@@ -1,0 +1,115 @@
+[
+	{
+		        "name":"小米手机",
+	            "price":"1499元",
+	            "url":"img/mi4!160x110.jpg",
+				"goodsId":"asjg"
+	},
+	{
+	            "name":"小米NOTE标准版",
+	            "price":"1999元",
+	            "url":"img/minote!160x110.jpg",
+				"goodsId":"aasd"
+	            
+	},
+	{
+	            "name":"小米超级无情版",
+	            "price":"1元秒杀",
+	            "url":"img/minotepro!160x110.jpg",
+				"goodsId":"aa123123sd"
+	        
+	},
+	{
+	            "name":"红米迷你版本",
+	            "price":"1299元",
+	            "url":"img/hongmi2a!160x110.jpg",
+				"goodsId":"a123asd"
+	           
+	},
+	{       
+	            "name":"红米PULS",
+	            "price":"4399元",
+	            "url":"img/hongmi2!160x110.jpg",
+				"goodsId":"aa45sd"
+	            
+	},
+	{
+	            "name":"红米联名谷李版",
+	            "price":"2300元",
+	            "url":"img/note!160x110.jpg",
+				"goodsId":"a789798asd"
+	         
+	},
+	{
+	            "name":"红米s",
+	            "price":"4300元",
+	            "url":"img/note2!160x110.jpg",
+				"goodsId":"aaasasdasd"
+	         
+	},
+	{
+	            "name":"小米平板16G",
+	            "price":"3100元",
+	            "url":"img/mipad16!160x110.jpg",
+				"goodsId":"a132123123asd"
+	         
+	},
+	{
+	            "name":"小米平板64G",
+	            "price":"4100元",
+	            "url":"img/mipad64!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	},
+	{
+	            "name":"小米平板64G",
+	            "price":"4100元",
+	            "url":"img/mipad64!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	},
+	{
+	            "name":"小米平板64G",
+	            "price":"4100元",
+	            "url":"img/mipad64!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	},
+	{
+	            "name":"小米7系显示器",
+	            "price":"9999元",
+	            "url":"img/mitv40!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	},
+	{
+	            "name":"小米艺术电视",
+	            "price":"4100元",
+	            "url":"img/mitv48!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	},
+	{
+	            "name":"液晶电视41寸",
+	            "price":"2699元",
+	            "url":"img/mitv49!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	},
+	{
+	            "name":"超级电视谷里款64G",
+	            "price":"3100元",
+	            "url":"img/mitv55!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	},
+	{
+	            "name":"超强路由器",
+	            "price":"500元",
+	            "url":"img/miwifimini!160x110.jpg",
+				"goodsId":"aasasdas8d687sad"
+	          
+	}
+
+
+]
