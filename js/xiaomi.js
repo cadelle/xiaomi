@@ -61,7 +61,7 @@
 
 
         $("#head_car").mouseleave(function(){
-            //清除购物车中信息
+            //清除购物车中延时器
             clearTimeout(time);
             $("#car_content").html("");
             $(this).css("background", "#424242");
@@ -143,7 +143,7 @@
                 $("#dh1").empty();
             for(var i = a;i<=b;i++){
                 $("#dh1").append(`
-                <div class="menu_content">
+                <div class="menu_content" goodsId=${ajxO[i].goodsId}>
                     <img src=${ajxO[i].url} id="im1">
                     <p class="menu_content_tit">${ajxO[i].name}</p>
                     <p class="menu_content_price">${ajxO[i].price}</p>
@@ -219,6 +219,43 @@
         },function(){
             $(this).css({"background":"#fff",color:"#424242"});
         });
+
+
+        //商品点击进入商品详情的列表
+        $("#dh1").click(function(eve){
+            var e = eve || window.event;
+            var target = e.target || e.srcElement;
+            // console.log(target.parentNode.getAttribute("goodsId"));
+            var id = target.parentNode.getAttribute("goodsId");
+            //将商品ID存放到cookie里面
+            document.cookie = "id ="+`${id}`+";expires=Tue, 10 Sep 2019 00:19:00 GMT;";
+            // console.log(document.cookie);
+            window.open("http://localhost/miphone/shoppinglist.html");
+
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //左侧菜单
         $("#banner_menu_wrap").children().hover(function(){
@@ -301,7 +338,7 @@
 
 
 
-        //left
+        //实现大米明星单品的左右滑动效果
         $("#head_hot_goods_prave").click(function(){
             $("#head_hot_goods_content").children("ul").animate({
                 left:"-1226px"
@@ -322,7 +359,7 @@
         },function(){
             $(this).css("color","#BEBEBE");
         });
-
+        //实现智能硬件板块的上下便宜特效
         $(".floor_goods_wrap_li").hover(function () {
             $(this).css({"top":"-5px",
                 "box-shadow":"0px 15px 30px rgba(0,0,0,0.2)"

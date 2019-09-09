@@ -1,0 +1,16 @@
+#main_shopping{width:100%;height:600px;}
+#shopping_header{height:50px;width:100%;background:#eee;margin:20px 0 0 0}
+#shopping_left{float:left;width:45%;height:500px;margin:20px 0 0 50px;border:1px solid #999;}
+#shopping_right{float:right;width:45%;height:500px;background:#eee;margin:20px 50px 0 0;}
+#shopping_header p a{text-decoration:none; cursor:pointer;}
+#shopping_header span{margin-left:30px;font:24px/50px "";float:left;}
+/* #shopping_left img{height:480px;width:500px}; */
+#jianjie{float:right;font:14px/50px "";width:300px;}
+#news{width:80%;background:#fff;height:20%;}
+#shopping_right h3, #shopping_right h4{margin:25px 0 0 30px;}
+#shopping_right p{margin-left:30px;}
+#shopping_right div{margin:20px 0 0 30px;}
+#discrible{margin:10px 0 0 0;}
+#price{margin-top:10px;color:#ff6700;}
+#shopping_right p span{display: inline-block;height:40px;width:80px;border:1px solid #999;margin-right:10px;cursor: pointer;font:16px/40px "";text-align: center;}
+#shopping_right #buy,#add{float:left;height:50px;width:200px;margin-right:10px;margin-top:10px;cursor: pointer;background:#ff6700;color:#fff;text-align: center;font:20px/50px "";}

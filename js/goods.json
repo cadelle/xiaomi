@@ -2,112 +2,160 @@
 	{
 		        "name":"小米手机",
 	            "price":"1499元",
-	            "url":"img/mi4!160x110.jpg",
-				"goodsId":"asjg"
+				"url":"img/mi4!160x110.jpg",
+				"discrible":"无情加强版小米手机，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"send":"上海市小米大本营",
+				"goodsId":"a1"
+				
 	},
 	{
 	            "name":"小米NOTE标准版",
 	            "price":"1999元",
-	            "url":"img/minote!160x110.jpg",
-				"goodsId":"aasd"
+				"url":"img/minote!160x110.jpg",
+				"discrible":"小米NOTE标准版，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
+				"goodsId":"a2"
 	            
 	},
 	{
 	            "name":"小米超级无情版",
-	            "price":"1元秒杀",
-	            "url":"img/minotepro!160x110.jpg",
-				"goodsId":"aa123123sd"
+				"price":"1元秒杀",
+				"discrible":"小米超级无情版，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
+				"url":"img/minotepro!160x110.jpg",
+				"color":"红色,红色,金色",
+				"type":"64G,24G",
+				"goodsId":"a3"
 	        
 	},
 	{
 	            "name":"红米迷你版本",
-	            "price":"1299元",
+				"price":"1299元",
+				"discrible":"红米迷你版本，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
+				"color":"黑色",
+				"type":"64G",
 	            "url":"img/hongmi2a!160x110.jpg",
-				"goodsId":"a123asd"
+				"goodsId":"b1"
 	           
 	},
 	{       
 	            "name":"红米PULS",
-	            "price":"4399元",
+				"price":"4399元",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"discrible":"红米PULS，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/hongmi2!160x110.jpg",
-				"goodsId":"aa45sd"
+				"goodsId":"b2"
 	            
 	},
 	{
 	            "name":"红米联名谷李版",
-	            "price":"2300元",
+				"price":"2300元",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"discrible":"红米联名谷李版，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/note!160x110.jpg",
-				"goodsId":"a789798asd"
+				"goodsId":"b3"
 	         
 	},
 	{
 	            "name":"红米s",
-	            "price":"4300元",
+				"price":"4300元",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"discrible":"红米s，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/note2!160x110.jpg",
-				"goodsId":"aaasasdasd"
+				"goodsId":"b4"
 	         
 	},
 	{
 	            "name":"小米平板16G",
-	            "price":"3100元",
+				"price":"3100元",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"discrible":"小米平板16G，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mipad16!160x110.jpg",
-				"goodsId":"a132123123asd"
+				"goodsId":"c1"
 	         
 	},
 	{
 	            "name":"小米平板64G",
-	            "price":"4100元",
+				"price":"4100元",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"discrible":"小米平板64G，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mipad64!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"c2"
 	          
 	},
 	{
 	            "name":"小米平板64G",
-	            "price":"4100元",
+				"price":"4100元",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"discrible":"小米平板64G，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mipad64!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"c3"
 	          
 	},
 	{
 	            "name":"小米平板64G",
-	            "price":"4100元",
+				"price":"4100元",
+				"color":"红色,白色,金色",
+				"type":"64G,128G",
+				"discrible":"小米平板64G，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mipad64!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"c4"
 	          
 	},
 	{
 	            "name":"小米7系显示器",
-	            "price":"9999元",
+				"price":"9999元",
+				"color":"红色,白色",
+				"type":"80寸,128寸",
+				"discrible":"小米7系显示器，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mitv40!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"d1"
 	          
 	},
 	{
 	            "name":"小米艺术电视",
-	            "price":"4100元",
+				"price":"4100元",
+				"color":"红色,白色",
+				"type":"80寸,90寸",
+				"discrible":"小米艺术电视，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mitv48!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"d2"
 	          
 	},
 	{
 	            "name":"液晶电视41寸",
-	            "price":"2699元",
+				"price":"2699元",
+				"color":"红色,白色,金色",
+				"type":"41寸,90寸",
+				"discrible":"液晶电视41寸，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mitv49!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"d3"
 	          
 	},
 	{
 	            "name":"超级电视谷里款64G",
-	            "price":"3100元",
+				"price":"3100元",
+				"color":"白色,金色",
+				"type":"64G",
+				"discrible":"超级电视谷里款64G，超大内存，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/mitv55!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"d4"
 	          
 	},
 	{
 	            "name":"超强路由器",
-	            "price":"500元",
+				"price":"500元",
+				"color":"红色,金色",
+				"type":"无情版,加强版",
+				"discrible":"超强路由器，无穷无尽的wife，强的一批，你懂的你懂的你懂的你懂的你懂的你懂的",
 	            "url":"img/miwifimini!160x110.jpg",
-				"goodsId":"aasasdas8d687sad"
+				"goodsId":"e1"
 	          
 	}
 
