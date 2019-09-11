@@ -223,29 +223,31 @@
 
         //商品点击进入商品详情的列表
         $("#dh1").click(function(eve){
+            
             var e = eve || window.event;
             var target = e.target || e.srcElement;
+        
             // console.log(target.parentNode.getAttribute("goodsId"));
-            var id = target.parentNode.getAttribute("goodsId");
-            //将商品ID存放到cookie里面
-            document.cookie = "id ="+`${id}`+";expires=Tue, 10 Sep 2019 00:19:00 GMT;";
+            // var id = target.parentNode.getAttribute("goodsId");
+            // //将商品ID存放到cookie里面
+            // document.cookie = "id ="+`${id}`+";expires=Tue, 21 Sep 2019 00:19:00 GMT;";
             // console.log(document.cookie);
-            window.open("http://localhost/miphone/shoppinglist.html");
-
+            
+            if(data!=null){
+                var id = target.parentNode.getAttribute("goodsId");
+                //将商品ID存放到cookie里面
+                document.cookie = "id ="+`${id}`+";expires=Tue, 21 Sep 2019 00:19:00 GMT;";
+            // window.open("http://localhost/miphone/shoppinglist.html");
+            window.location.href = "http://localhost/miphone/shoppinglist.html";
+            }else{alert("请先登录");
+            window.location.href = "http://localhost/miphone/land.html";
+        }
         })
 
-
-
-
-
-
-
-
-
-
-
-
-
+        //购物车点击
+        $(".head_car_text").click(function(){
+            window.location.href = "http://localhost/miphone/car.html";
+        })
 
 
 
@@ -265,7 +267,7 @@
             $(this).css("background","none");
             $(this).children(".banner_menu_content").css("border","0px solid #F0F0F0").hide();
         })
-        
+          // 轮播图实现
         $(function(){
             var i=0;
             var big_banner_pic = $("#big_banner_pic");
@@ -280,6 +282,8 @@
                 });
             };
 
+
+      
             function automatic(){
                 i+=1;
                 if(i>=allimg){
@@ -288,7 +292,7 @@
                 //执行轮播效果
                 img_change();
             };
-            var change_self_time = setInterval(automatic, 3000);
+            var change_self_time = setInterval(automatic, 2000);
 
             $("#big_banner_change_wrap").hover(function(){
                 //进入广告区域暂停轮播图播放
@@ -298,7 +302,7 @@
             },function(){
                 //重新定义计时器
                 
-                change_self_time = setInterval(automatic, 3000);
+                change_self_time = setInterval(automatic, 2000);
                 $("#big_banner_change_wrap").children().hide();
             });
             $("#big_banner_change_prev").click(function(){

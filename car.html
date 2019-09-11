@@ -5,10 +5,13 @@
     <title>小米商品详情</title>
     <link rel="stylesheet" href="css/xiaomi.css"/>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/public.css"/>
-    <link rel="stylesheet" href="css/shopping.css"/>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script src="js/jquery.animate-colors-min.js"></script>
+    
+  
 </head>
 <body>
      <div class="head_box">
@@ -80,57 +83,72 @@
              </div>
          </div>
      </div>
+     <div id="car_main"></div>
+     
 
-     <div id="main_shopping">
-        <div id="shopping_header">
-        <span class="name"></span>
-        <p id="jianjie"><a>概述</a>| <a>变焦双摄</a>| <a>设计</a>| <a>参数</a>| <a>F码通道</a>|<a>用户评价</a></p>
-
-        </div>
-        
-        <div id="shopping_left">
-            <p id="move"></p>
-        </div>
-        <div id="fangda">
-                <img src="" id="big_pic"/>
-        </div>
-        
-
-
-
-
-        <div id="shopping_right">
-        <h3 class="name">小米</h3>
-        <p id="discrible">详情</p>
-        <p id="price"></p>
-        <h4>选择型号</h4>
-        <p id="type"></p>
-        <h4>选择颜色</h4>
-        <p id="color"></p>
-        <div id="news"><span></span><span>&nbsp;<i class="fa fa-get-pocket fa-x"></i>&nbsp;&nbsp;配送至:&nbsp;&nbsp;</span>
-            <div id="address">
-                   
-                            上海市青浦区.....
-
+     <!-- 购物车 -->
+     <div class="shopping-car-container">
+            <div class="car-headers-menu">
+                <div class="row">
+                    <div class="col-md-1 col-xs-1 car-menu">
+                        <label><input type="checkbox" id="check-goods-all" /><span id="checkAll">全选</span></label>
+                    </div>
+                    <div class="col-md-3 col-xs-3 car-menu">商品信息</div>
+                    <div class="col-md-3  col-xs-3 car-menu">商品参数</div>
+                    <div class="col-md-1  col-xs-1 car-menu">单价</div>
+                    <div class="col-md-1 col-xs-1 car-menu">数量</div>
+                    <div class="col-md-1 col-xs-1 car-menu">金额</div>
+                    <div class="col-md-2 col-xs-2 car-menu">操作</div>
                 </div>
+            </div>
+            <div class="goods-content">
+            
+
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body bottom-menu-include">
+                    <div class="col-md-1 col-xs-1 check-all-bottom bottom-menu">
+                        <label>
+                                <input type="checkbox" id="checked-all-bottom" />
+                                <span id="checkAllBottom">全选</span>
+                            </label>
+                    </div>
+                    <div class="col-md-6 col-xs-6 bottom-menu">
         
-        
-        
+                    </div>
+                    <div class="col-md-2 col-xs-2 bottom-menu">
+                        <span>已选商品 <span id="selectGoodsCount">0</span> 件</span>
+                    </div>
+                    <div class="col-md-2 col-xs-2 bottom-menu">
+                        <span>合计：<span id="selectGoodsMoney">0.00</span></span>
+                    </div>
+                    <div class="col-md-1 col-xs-1 bottom-menu submitData submitDis">
+                        结算
+                    </div>
+                </div>
+            </div>
+       
         </div>
-        <div id="go"></div>
-        <p id="buy">购买</p><p id="add">加入购物车</p>
-        </div>
-     </div>
-
-    
 
 
 
 
 
 
- 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      <div id="foot_box">
          <div id="foot_wrap">
              <div class="foot_top">
@@ -201,6 +219,5 @@
 <script type="text/javascript" src="js/xiaomi.js"></script>
 <script type="text/javascript" src="js/shop.js"></script>
 <script type="text/javascript" src="js/car.js"></script>
-<script type="text/javascript" src="js/big.js"></script>
 
 </html>
